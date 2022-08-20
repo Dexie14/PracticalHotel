@@ -1,0 +1,63 @@
+.intouch{
+    background-image: url(../../../assets/Landingpage/stay_in_touch.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 1rem;
+}
+
+.intouch h3{
+    width: 50%;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 800;
+    margin: 4rem auto 0;
+    padding-top: 7rem;
+    color: white;
+}
+.intouch p{
+    width: 80%;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin: 1.5rem auto;
+    color: white;
+}
+
+.intouch form{
+    display: flex;
+    justify-content: space-between;
+    width: 55%;
+    margin: 4rem auto;
+    padding-bottom: 4rem;
+}
+
+.intouch form input {
+    width: 60%;
+    background-color: rgba(255, 255, 255, 0.08);
+    border: 2px solid #534E6F;
+    padding: 20px 10px;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    outline: none;
+    font-weight: 800;
+    color: white;
+}
+.intouch form button {
+    width: 35%;
+    font-family: "Raleway", sans-serif;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    background-color:  #534E6F;
+    border: #534E6F 1px solid;
+    color: white;
+    font-weight: 800;
+}
+
+.intouch form input::placeholder {
+    color: rgba(255, 255, 255, 0.76);
+    font-weight: 800;
+    font-size: 1.3rem;
+}

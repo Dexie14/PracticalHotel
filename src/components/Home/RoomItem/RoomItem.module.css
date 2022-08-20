@@ -1,0 +1,58 @@
+.room{
+    width: 100%;
+    position: relative;
+}
+.suites{
+    width: 100%;
+}
+.suites img{
+    width: 100%;
+}
+
+.room main{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+/* .room .css {
+     background-color: #090231;
+} */
+.suitesText{
+    width: 95%;
+    margin: 0 auto;
+    font-size: 0.9rem;
+    color: white;
+    padding: 2rem 0px;
+    font-weight: 400;
+}
+.name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem auto;
+}
+.book{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem auto 0;
+}
+
+.book button{
+    font-family: "Raleway", sans-serif;
+    width: 100%;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color:  white;
+    border: white 1px solid;
+    color: #090231;
+}
+
+.blue{
+    background-color: #090231;
+}
+.grey{
+    background-color: #534E6F;
+}

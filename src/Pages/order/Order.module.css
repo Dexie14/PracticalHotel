@@ -1,0 +1,51 @@
+.order{
+    width: 90%;
+    margin: 1rem auto;
+    text-align: center;
+}
+
+.order p{
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin: 1.3rem;
+}
+.order p:last-of-type{
+    text-align: center;
+    font-size: 0.7rem;
+    font-weight: 400;
+    margin: 1rem;
+}
+.order h4{
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin: 3rem 0 1rem;
+}
+.order img{
+    width: 5%;
+}
+.arrow{
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+}
+.backhome{
+    font-family: "Raleway", sans-serif;
+    width: 20%;
+    padding: 15px;
+    align-items: center;
+    font-size: 1rem;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: #534E6F;
+    color: white;
+    border: #534E6F;
+    margin: 1.2rem 0 2rem;
+}
+.payed{
+    width: 90%;
+    background-color:  rgba(83, 78, 111, 0.26);
+    padding: 2rem 1rem;
+    margin: 0 auto ;
+}

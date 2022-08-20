@@ -1,0 +1,179 @@
+.Bookings{
+    width: 90%;
+    margin: 1rem auto;
+    position: relative;
+}
+
+.Bookings h3{
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.arrow{
+    position: absolute;
+    left: 0;
+}
+.space{
+    width: 90%;
+    margin: 1.5rem auto 0.5rem;
+}
+.space p{
+    text-align: left;
+    font-size: 0.7rem
+}
+.Check {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 1rem auto;
+  }
+.roomselect {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+}
+
+.CheckIn {
+    display: flex;
+    align-items: center;
+    width: 30%;
+  }
+
+  .CheckIn span {
+    margin-left: 4px;
+  }
+  .guest span {
+    margin-left: 4px;
+  }
+
+  .CheckIn p {
+    margin: 1rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+  .Check p {
+    margin: 1rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+  .guest p {
+    margin: 1.2rem 1rem 1.2rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+  .type h5 {
+    margin: 0rem 1rem 1rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+
+  .guest {
+    display: flex;
+    align-items: center;
+    width: 30%;
+  }
+
+.form{
+    display: flex;
+    width: 100%;
+    margin: 2rem auto 6rem;
+    justify-content: space-between;
+    position: relative;
+}
+.first {
+    width: 49%;
+    background-color: #D2D8E1;
+
+}
+.second {
+    width: 45%;
+}
+.second img{
+    width: 100%;
+}
+
+.selected{
+    appearance: none;
+    background-image: url(../../assets/Landingpage/dropdown.svg);
+    background-repeat: no-repeat;
+    background-position: right 2px center;
+    /* padding: 10px; */
+    padding-right: 20px;
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #534E6F;
+    background-color: #D2D8E1;
+    text-align: center;
+}
+
+.space hr{
+    border: 2px solid #534E6F ;
+    background-color: #534E6F;
+}
+.space h3{
+    text-align: left;
+    font-size: 0.9rem;
+    margin: 1rem 0;
+}
+.space h5{
+    text-align: left;
+    font-size: 0.9rem;
+    margin: 1rem 0;
+    color: #090231;
+}
+
+.nameInput{
+    display: flex;
+    width: 80%;
+    margin: 1.5rem 0;
+}
+.nameInput h6{
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+}
+.nameInput input{
+    outline: none;
+    padding: 0.4rem;
+    background-color: transparent;
+    color: black;
+    font-size: 0.8rem;
+    border: 1px solid #090231;
+    margin-right: 2rem;
+}
+.nameInput .selected{
+    appearance: none;
+    background-image: url(../../assets/Landingpage/dropdown.svg);
+    background-repeat: no-repeat;
+    background-position: right 2px center;
+    padding-right: 50px;
+    padding: 0.4rem 3rem 0.2rem 0;
+    width: 100%;
+    outline-style: none;
+    border: 1px solid #090231;
+    background-color: #D2D8E1;
+}
+
+.reserve{
+    position: absolute;
+    top: 105%;
+    left: 40%;
+    font-family: "Raleway", sans-serif;
+    width: 25%;
+    padding: 15px;
+    align-items: center;
+    font-weight: 700;
+    font-size: 1rem;
+    justify-content: center;
+    border-radius: 15px;
+    background-color: #D2D8E1;
+    color: #090231;
+    border: #D2D8E1;
+}
+a{
+    text-decoration: none;
+}

@@ -1,0 +1,51 @@
+
+
+.testimony h3{ 
+    width: 50%;
+    margin: 2rem auto;
+    text-align: center;
+    font-weight: 800;
+    color: #090231;
+    font-size: 2rem;
+}
+
+.clients{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    padding: 1.5rem 0;
+}
+.words{
+    /* display: flex; */
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.clients h4{
+    margin: 1.5rem 0;
+    font-weight: 700;
+    color: #090231;
+    width: 80%;
+}
+.quotename{
+    display: flex;
+    align-items: center;
+}
+.dexie{
+    color:#B0B3BA;
+    margin-left: 1rem;
+}
+.joel{
+    color:#534E6F;
+}
+
+.left{
+    position: absolute;
+    left: 0;
+    top: 40%;
+}
+.right{
+    position: absolute;
+    right: 0;
+    top: 40%;
+}

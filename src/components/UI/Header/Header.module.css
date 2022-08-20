@@ -1,0 +1,66 @@
+.mainHead{
+    background-color: rgba(191, 200, 213, 0.7);
+     margin: 0 auto;
+}
+
+header {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  padding: 0.7rem 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo{
+    width: 15%;
+}
+.logo img{
+    width: 100%;
+}
+
+.menu{
+    display: flex;
+    width: 65%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+}
+.navItems{
+  color:  #000000;
+}
+.button{
+    width: 15%;
+}
+.button button{
+    font-family: "Raleway", sans-serif;
+    width: 100%;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: #090231;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+.home{
+    position: relative;
+}
+.active{
+    position: absolute;
+    width: 60%;
+    height: 5px;
+    left:21%;
+    top:90%;
+    background-color: #090231;
+}
