@@ -1,7 +1,7 @@
 import React from "react";
 import classes from "./Header.module.css";
 import Logo from "../../../assets/Landingpage/PracticalHotel.png";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -12,21 +12,40 @@ const Header = () => {
         </div>
         <menu className={classes.menu}>
           <nav className={classes.nav}>
-            <Link to="/" className={`${classes.navItems} ${classes.home}`}>
+            <NavLink
+              to="/"
+              className={(navData) =>
+                navData.isActive ? `${classes.active}` : `${classes.navItems}`
+              }
+            >
               Home
-              <div className={classes.active}></div>
-            </Link>
-            <Link to="/" className={classes.navItems}>
+            </NavLink>
+            <NavLink
+              to="/about"
+              className={(navData) =>
+                navData.isActive ? `${classes.active}` : `${classes.navItems}`
+              }
+            >
               About
-            </Link>
-            <Link to="/" className={classes.navItems}>
+            </NavLink>
+            <NavLink
+              to="/bookings" 
+              className={(navData) =>
+                navData.isActive ? `${classes.active}` : `${classes.navItems}`
+              }
+            >
               Rooms
-            </Link>
-            <Link to="/" className={classes.navItems}>
+            </NavLink>
+            <NavLink
+              to="/contact"
+              className={(navData) =>
+                navData.isActive ? `${classes.active}` : `${classes.navItems}`
+              }
+            >
               Contact
-            </Link>
+            </NavLink>
           </nav>
-          <Link to='/bookings' className={classes.button}>
+          <Link to="/bookings" className={classes.button}>
             <button>Book Now</button>
           </Link>
         </menu>

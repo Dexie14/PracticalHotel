@@ -57,10 +57,11 @@ a{
     position: relative;
 }
 .active{
-    position: absolute;
+    /* position: absolute;
     width: 60%;
     height: 5px;
     left:21%;
-    top:90%;
-    background-color: #090231;
+    top:90%; */
+    text-decoration: 5px solid #090231 underline;
+    color: #000000;
 }

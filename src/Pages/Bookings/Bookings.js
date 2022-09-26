@@ -5,7 +5,7 @@ import dropdown from "../../assets/Landingpage/dropdown.svg";
 import checkIn from "../../assets/Landingpage/check_in_calendar.svg";
 import booking from "../../assets/Landingpage/booking_image.svg";
 import guest from "../../assets/Landingpage/guest.svg"
-import { Link } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 
 const Bookings = () => {
   return (
@@ -14,6 +14,7 @@ const Bookings = () => {
         <img src={arrow} alt="arrow" />
       </Link>
       <h3>BOOKINGS</h3>
+      <Outlet />
       <div>
         <form className={classes.form}>
           <div className={classes.first}>
